@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Main = () => {
   return (
-    <div className="flex h-screen w-full items-center justify-center text-[#1a1919] px-4 lg:px-12 xl:px-16">
-      <div className="flex-1 flex flex-col justify-between h-[400px] lg:mr-6">
+    <div className="bg-[url('../public/car.svg')] relative flex h-screen w-full items-center justify-center text-[#1a1919] px-4 lg:px-12 xl:px-16">
+      <div className="md:flex-1 flex flex-col justify-center md:justify-between h-[400px] md:p-4 md:mr-6">
         <div className="mb-8">
           <p className="text-[64px] font-bold">Welcome</p>
           <p className="text-lg ">Adil Here</p>
@@ -28,7 +28,7 @@ const Main = () => {
           </Link>
         </div>
       </div>
-      <div className="flex-1 flex flex-col justify-center h-[400px]">
+      <div className="hidden md:flex-1 md:flex md:flex-col md:justify-center md:h-[400px]">
         <img src="/main_d.svg" alt="" className="h-full" />
       </div>
     </div>
