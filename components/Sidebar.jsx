@@ -16,8 +16,8 @@ const Sidebar = () => {
         </a>
       </div>
       <div className="w-[20%] h-[1px] lg:h-[20%] lg:w-[1px] mx-auto  bg-[#1a1919]"></div>
-      <div className="h-[20%] flex flex-col justify-end">
-        <p className="lg:origin-center lg:-rotate-90 lg:-translate-y-5 whitespace-nowrap">
+      <div className="lg:h-[20%] flex flex-col justify-end">
+        <p className="transform-none lg:origin-center lg:-rotate-90 lg:-translate-y-5 whitespace-nowrap">
           &copy; | {Date().toString().split(" ")[3]}
         </p>
       </div>
