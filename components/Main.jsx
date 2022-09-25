@@ -98,8 +98,8 @@ const Main = () => {
         </div>
       </div>
       {projects.map((x, y) => (
-        <div className="h-[70vh] sm:h-screen w-full text-[#eee7e1] p-8">
-          <Projects type={x} key={y} />
+        <div className="h-[70vh] sm:h-screen w-full text-[#eee7e1] p-8" key={y}>
+          <Projects type={x} />
         </div>
       ))}
     </div>
