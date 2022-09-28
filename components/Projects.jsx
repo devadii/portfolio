@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Projects = ({ type }) => {
   return (
     <div className="h-full w-full relative">
@@ -10,9 +12,11 @@ const Projects = ({ type }) => {
         </div>
         <div className="p-4 text-[#372c2e] flex flex-col items-center justify-center">
           <p className="text-xl font-bold mb-1">{type.title}</p>
-          <button className="px-3 py-1 rounded-lg bg-[#372c2e] text-[#eee7e1]">
-            Go to Site
-          </button>
+          <Link href={type.link} target="_blank">
+            <button className="px-3 py-1 rounded-lg bg-[#372c2e] text-[#eee7e1]">
+              Go to Site
+            </button>
+          </Link>
         </div>
       </div>
     </div>

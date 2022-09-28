@@ -5,13 +5,16 @@ const Sidebar = () => {
   return (
     <div className="lg:fixed px-4 py-4 lg:py-8 lg:h-screen lg:w-[95px] flex lg:flex-col items-center justify-between text-[#eee7e1] ">
       <div className="flex lg:flex-col items-center justify-between w-[20%] lg:h-[20%]">
-        <a href="" className="lg:-rotate-90">
+        <a href="https://github.com/devadii" className="lg:-rotate-90">
           <GitHubIcon />
         </a>
         <a href="mailto:someone@yoursite.com" className="lg:-rotate-90">
           <EmailIcon />
         </a>
-        <a href="" className="lg:-rotate-90">
+        <a
+          href="https://www.upwork.com/freelancers/~01bf619885f5ce0646?viewMode=1"
+          className="lg:-rotate-90"
+        >
           <p className="font-extrabold">Up</p>
         </a>
       </div>

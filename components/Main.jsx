@@ -13,12 +13,19 @@ const colors = [
 
 const projects = [
   {
+    img: "project_a.png",
+    title: "Fully Featured Twitter Clone",
+    link: "https://twitter-codp.vercel.app/",
+  },
+  {
     img: "project_b.png",
     title: "Modern UI Design",
+    link: "https://sleepy-feynman-d4e84f.netlify.app/",
   },
   {
     img: "project_c.png",
     title: "E-Commerce Store",
+    link: "https://blissful-pare-6985bb.netlify.app/",
   },
 ];
 const Main = () => {
