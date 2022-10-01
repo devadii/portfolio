@@ -50,7 +50,7 @@ const Main = () => {
             <div className="">
               <p className="text-2xl font-bold text-center mb-4">
                 My{" "}
-                <span className="text-4xl font-bold italic">{"<conding>"}</span>{" "}
+                <span className="text-4xl font-bold italic">{"<coding>"}</span>{" "}
                 Box
               </p>
               <Tools />
@@ -86,7 +86,7 @@ const Main = () => {
               <span className="text-3xl font-bold italic">
                 {"<latest about me>"}
               </span>
-              <p>Currently Learning Blockchain</p>
+              <p>Currently Learning IBM Python Data Analyst</p>
             </div>
             <div className="flex-1 bg-[#eee7e1] rounded-3xl p-3 md:p-0 flex items-center justify-center">
               <div className="flex">
@@ -95,8 +95,9 @@ const Main = () => {
                   <p className="">
                     Check My{" "}
                     <span className="text-3xl font-bold italic">
-                      {"<projects>"}
+                      {"<projects>"}{" "}
                     </span>
+                    Down
                   </p>
                 </div>
               </div>
